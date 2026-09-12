@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quran — тестирование</title>
+  <title>Тестирование приложений</title>
 
   <style>
     * { box-sizing: border-box; }
@@ -25,7 +25,7 @@
     .card {
       width: 100%;
       max-width: 440px;
-      background: rgba(255,255,255,.72);
+      background: rgba(255,255,255,.75);
       backdrop-filter: blur(18px);
       border: 1px solid rgba(255,255,255,.9);
       border-radius: 32px;
@@ -50,7 +50,7 @@
     h1 {
       text-align: center;
       margin: 0;
-      font-size: 32px;
+      font-size: 30px;
     }
 
     .intro {
@@ -107,7 +107,7 @@
       box-shadow: 0 10px 25px rgba(36,85,68,.2);
     }
 
-    .play {
+    .app {
       background: #fffaf1;
       color: #245544;
       border: 1px solid #dfc891;
@@ -117,6 +117,13 @@
       height: 1px;
       background: rgba(36,85,68,.1);
       margin: 28px 0;
+    }
+
+    .app-title {
+      font-size: 15px;
+      color: #8a8d87;
+      margin-top: 18px;
+      text-align: center;
     }
 
     .note {
@@ -131,19 +138,22 @@
 
 <body>
   <div class="card">
+
     <div class="icon">📖</div>
 
-    <h1>Тестирование Quran</h1>
+    <h1>Тестирование приложений</h1>
 
     <p class="intro">
-      Чтобы установить тестовую версию приложения, выполните два простых шага.
+      Вступите в группу один раз, после чего сможете установить Quran и Азкары.
     </p>
 
     <div class="step">
       <div class="number">1</div>
       <div>
         <strong>Вступите в группу</strong>
-        <p>Это откроет вашему Google-аккаунту доступ к закрытому тестированию.</p>
+        <p>
+          Это откроет вашему Google-аккаунту доступ к закрытому тестированию.
+        </p>
       </div>
     </div>
 
@@ -158,20 +168,33 @@
     <div class="step">
       <div class="number">2</div>
       <div>
-        <strong>Установите Quran</strong>
-        <p>После вступления в группу откройте приложение в Google Play.</p>
+        <strong>Выберите приложение</strong>
+        <p>
+          После вступления в группу откройте нужное приложение в Google Play.
+        </p>
       </div>
     </div>
 
-    <a class="play"
+    <div class="app-title">Quran</div>
+
+    <a class="app"
        href="https://play.google.com/store/apps/details?id=org.quran.localreader"
        target="_blank">
       Открыть Quran в Google Play
     </a>
 
+    <div class="app-title">Азкары</div>
+
+    <a class="app"
+       href="https://play.google.com/store/apps/details?id=com.mysaudiya.azkar"
+       target="_blank">
+      Открыть Азкары в Google Play
+    </a>
+
     <p class="note">
       В Google Group и Google Play используйте один и тот же Google-аккаунт.
     </p>
+
   </div>
 </body>
 </html>
